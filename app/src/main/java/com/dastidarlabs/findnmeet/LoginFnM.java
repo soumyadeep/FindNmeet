@@ -349,8 +349,6 @@ public class LoginFnM extends AppCompatActivity implements LoaderCallbacks<Curso
             showProgress(true);
 
             if (success) {
-//                Intent dummyIntent = new Intent(LoginFnM.this, DummyActivity.class);
-//                startActivity(dummyIntent);
                 Intent findIntent = new Intent(LoginFnM.this, FindContactActivity.class);
                 startActivity(findIntent);
 
